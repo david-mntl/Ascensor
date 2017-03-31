@@ -1,0 +1,3 @@
+MODULE schematic_maquina
+	SUBMODULE maquina_programada
+		INSTANCE XLXI_1

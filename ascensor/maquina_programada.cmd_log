@@ -1,0 +1,3 @@
+vhdtdtfi -lib work C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor/maquina_programada.v -lang verilog -prj ascensor -o maquina_programada.spl -module maquina_programada -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 maquina_programada.spl C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor/maquina_programada.sym 
+vhdtdtfi -lang verilog -prj ascensor -o C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor/maquina_programada.tfi -lib work C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor//maquina_programada.v -module maquina_programada -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

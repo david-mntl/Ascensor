@@ -1,0 +1,3 @@
+verilog work "maquina_programada.v"
+verilog work "test_maquina.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Mar 30 21:18:17 2017
+# Process ID: 832
+# Log file: C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list in1]]
+set_property iostandard LVCMOS33 [get_ports [list state2]]
+set_property iostandard LVCMOS33 [get_ports [list out2]]
+set_property iostandard LVCMOS33 [get_ports [list out1]]
+set_property iostandard LVCMOS33 [get_ports [list in2]]
+set_property iostandard LVCMOS33 [get_ports [list rst]]
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list state1]]
+save_constraints

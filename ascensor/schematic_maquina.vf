@@ -1,0 +1,44 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : schematic_maquina.vf
+// /___/   /\     Timestamp : 03/23/2017 18:03:05
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor/schematic_maquina.vf -w C:/Users/jairo-mm/OneDrive/Documentos/TallerDeDigitales/ascensor/schematic_maquina.sch
+//Design Name: schematic_maquina
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module schematic_maquina(clk, 
+                         in1, 
+                         in2, 
+                         rst, 
+                         out1, 
+                         out2);
+
+    input clk;
+    input in1;
+    input in2;
+    input rst;
+   output out1;
+   output out2;
+   
+   
+   maquina_programada  XLXI_1 (.clk(clk), 
+                              .in1(in1), 
+                              .in2(in2), 
+                              .rst(rst), 
+                              .out1(out1), 
+                              .out2(out2));
+endmodule

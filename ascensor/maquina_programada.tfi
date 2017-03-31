@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+maquina_programada instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .in1(in1), 
+    .in2(in2), 
+    .state1(state1), 
+    .state2(state2), 
+    .out1(out1), 
+    .out2(out2)
+    );
+
+
